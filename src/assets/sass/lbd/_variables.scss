@@ -6,7 +6,7 @@
 
 $color-azure:           #23CCEF;
 $color-purple:          #9368E9;
-$color-red:             #FB404B;
+$color-red:             #982def;
 $color-green:           #87CB16;
 $color-orange:          #FFA534;
 $color-blue:            #447DF7;
@@ -55,7 +55,7 @@ $warning-states-color:       #ED8D00 !default;
 
 
 $danger-color:               #FF4A55 !default;
-$danger-bg:                  #FF4A55 !default;
+$danger-bg:                  #804aff !default;
 $danger-states-color:        #EE2D20 !default;
 
 
@@ -252,7 +252,7 @@ $filter-red:          darken($danger-color, 10%);
 
 $new-blue:            #1DC7EA;
 $new-purple:          #9368E9;
-$new-red:             #FB404B;
+$new-red:             #aa40fb;
 $new-green:           #87CB16;
 $new-orange:          #FFA534;
 $new-dark-blue:       #1F77D0;
@@ -270,4 +270,4 @@ $blue-navbar:               lighten($new-dark-blue, 10%);
 $azure-navbar:              lighten($new-blue, 15%);
 $green-navbar:              lighten($new-green, 10%);
 $orange-navbar:             lighten($new-orange, 10%);
-$red-navbar:                lighten($new-red, 10%);
+$red-navbar:                lighten($new-purple, 10%);
