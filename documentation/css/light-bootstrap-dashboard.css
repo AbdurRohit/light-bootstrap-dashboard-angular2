@@ -521,13 +521,13 @@ input:focus {
 }
 .sidebar[data-color="red"]:after,
 .bootstrap-navbar[data-color="red"]:after {
-  background: #972cbe;
-  background: -moz-linear-gradient(top, #972cbe 0%, #bb0502 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #972cbe), color-stop(100%, #bb0502));
-  background: -webkit-linear-gradient(top, #972cbe 0%, #bb0502 100%);
-  background: -o-linear-gradient(top, #972cbe 0%, #bb0502 100%);
-  background: -ms-linear-gradient(top, #972cbe 0%, #bb0502 100%);
-  background: linear-gradient(to bottom, #972cbe 0%, #bb0502 100%);
+  background: #FB404B;
+  background: -moz-linear-gradient(top, #FB404B 0%, #bb0502 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FB404B), color-stop(100%, #bb0502));
+  background: -webkit-linear-gradient(top, #FB404B 0%, #bb0502 100%);
+  background: -o-linear-gradient(top, #FB404B 0%, #bb0502 100%);
+  background: -ms-linear-gradient(top, #FB404B 0%, #bb0502 100%);
+  background: linear-gradient(to bottom, #FB404B 0%, #bb0502 100%);
   background-size: 150% 150%;
 }
 .sidebar[data-color="purple"]:after,
@@ -543,7 +543,7 @@ input:focus {
 }
 
 .main-panel {
-  background: rgba(203, 203, 210, 0.15);
+  background: rgba(15, 15, 15, 0.15);
   position: relative;
   z-index: 2;
   float: right;
@@ -556,7 +556,7 @@ input:focus {
   min-height: calc(100% - 123px);
 }
 .main-panel > .footer {
-  border-top: 1px solid #e7e7e7;
+  border-top: 1px solid #454545;
 }
 .main-panel .navbar {
   margin-bottom: 0;
@@ -1447,7 +1447,7 @@ input:focus {
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger {
   color: #fff;
-  background: #972cbe;
+  background: #FB404B;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default,
@@ -1586,7 +1586,7 @@ input:focus {
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-danger ~ .bootstrap-switch-default {
-  background-color: #972cbe;
+  background-color: #FB404B;
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-warning ~ .bootstrap-switch-default {
@@ -1649,7 +1649,7 @@ input:focus {
 }
 .navbar .navbar-nav .notification {
   position: absolute;
-  background-color: #c340fb;
+  background-color: #FB404B;
   text-align: center;
   border-radius: 10px;
   min-width: 18px;
@@ -1861,7 +1861,7 @@ input:focus {
 }
 
 .navbar-ct-red {
-  background-color: #972cbe;
+  background-color: #FB404B;
 }
 
 .navbar-transparent {
@@ -2449,10 +2449,10 @@ input:focus {
 }
 
 .ct-series-b .ct-point, .ct-series-b .ct-line, .ct-series-b .ct-bar, .ct-series-b .ct-slice-donut {
-  stroke: #972cbe;
+  stroke: #FB404B;
 }
 .ct-series-b .ct-slice-pie, .ct-series-b .ct-area {
-  fill: #972cbe;
+  fill: #FB404B;
 }
 
 .ct-series-c .ct-point, .ct-series-c .ct-line, .ct-series-c .ct-bar, .ct-series-c .ct-slice-donut {
@@ -3485,7 +3485,7 @@ input:focus {
   .responsive-nav .open .dropdown-menu > li > a:hover,
   .responsive-nav .open .dropdown-menu > li > a:focus,
   .responsive-nav .open .dropdown-menu > li > a:active {
-    color: white;
+    color: rgb(46, 46, 46);
   }
   .responsive-nav > li > a,
   .responsive-nav > li > a:hover,

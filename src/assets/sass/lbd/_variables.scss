@@ -19,7 +19,7 @@ $border-thick:               2px !default;
 $white-color:                #FFFFFF !default;
 $white-bg:                   #FFFFFF !default;
 
-$smoke-bg:                   #F5F5F5 !default;
+$smoke-bg:                   #1b1b1b !default;
 
 $black-bg:                   rgba(30,30,30,.97) !default;
 
@@ -252,12 +252,11 @@ $filter-red:          darken($danger-color, 10%);
 
 $new-blue:            #1DC7EA;
 $new-purple:          #9368E9;
-$new-red:             #aa40fb;
+$new-red:             #ef3c3c;
 $new-green:           #87CB16;
 $new-orange:          #FFA534;
 $new-dark-blue:       #1F77D0;
 $new-black:           #5e5e5e;
-
 
 $topbar-x:             topbar-x !default;
 $topbar-back:          topbar-back !default;
@@ -270,4 +269,4 @@ $blue-navbar:               lighten($new-dark-blue, 10%);
 $azure-navbar:              lighten($new-blue, 15%);
 $green-navbar:              lighten($new-green, 10%);
 $orange-navbar:             lighten($new-orange, 10%);
-$red-navbar:                lighten($new-purple, 10%);
+$red-navbar:                lighten($new-red, 10%);
