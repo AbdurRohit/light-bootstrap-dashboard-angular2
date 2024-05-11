@@ -13,15 +13,12 @@ import { AppComponent } from './app.component';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgApexchartsModule } from 'ng-apexcharts';
-import { HomeComponent } from './home/home.component';
+
 
 @NgModule({
   imports: [
     BrowserModule,
-    FormsModule,
     ReactiveFormsModule,
-    NgApexchartsModule,
     BrowserAnimationsModule,
     FormsModule,
     RouterModule,
@@ -37,6 +34,6 @@ import { HomeComponent } from './home/home.component';
     AdminLayoutComponent,
   ],
   providers: [],
-  bootstrap: [AppComponent,HomeComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
